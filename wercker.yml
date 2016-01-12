@@ -1,5 +1,6 @@
 box: nodesource/trusty
-services: mongodb
+services: 
+  - mongo
 dev:
   steps:
     - npm-install
